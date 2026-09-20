@@ -1,0 +1,70 @@
+from colorama import *
+from random import *
+from twstdle_characters import charadict
+
+k = "y"
+
+while(k=="y"):
+    guesscount = 0
+    init()
+    answer = list(charadict.keys())[randint(0, len(list(charadict.keys()))-1)]
+    print(Fore.RED  + "Red means that attribute is wrong," + Fore.YELLOW + " Yellow means it is one of that attribute," + Fore.GREEN + " Green means it is true."+ Style.RESET_ALL)
+
+    while True:
+        a = []
+        guess = input("Guess a character: ").title()
+        guesscount+=1
+        if guess in list(charadict.keys()):
+            if guess == answer:
+                break
+            if charadict[guess]["Occupation"] == charadict[answer]["Occupation"]:
+                print(Fore.GREEN + charadict[guess]["Occupation"] + Style.RESET_ALL)
+            elif charadict[guess]["Occupation"]!= charadict[answer]["Occupation"] and ( charadict[answer]["Occupation"] in charadict[guess]["Occupation"] or charadict[guess]["Occupation"] in charadict[answer]["Occupation"]):
+                print(Fore.YELLOW + charadict[guess]["Occupation"] + Style.RESET_ALL)
+            elif charadict[guess]["Occupation"]!= charadict[answer]["Occupation"]:
+                print(Fore.RED + charadict[guess]["Occupation"] + Style.RESET_ALL)
+
+            if charadict[guess]["Dorm"] == charadict[answer]["Dorm"]:
+                print(Fore.GREEN + charadict[guess]["Dorm"] + Style.RESET_ALL)
+            elif charadict[guess]["Dorm"]!= charadict[answer]["Dorm"] and ( charadict[answer]["Dorm"] in charadict[guess]["Dorm"] or charadict[guess]["Dorm"] in charadict[answer]["Dorm"]):
+                print(Fore.YELLOW + charadict[guess]["Dorm"] + Style.RESET_ALL)
+            elif charadict[guess]["Dorm"]!= charadict[answer]["Dorm"]:
+                print(Fore.RED + charadict[guess]["Dorm"] + Style.RESET_ALL)
+
+            if charadict[guess]["Grade"] == charadict[answer]["Grade"]:
+                print(Fore.GREEN + charadict[guess]["Grade"] + Style.RESET_ALL)
+            elif charadict[guess]["Grade"]!= charadict[answer]["Grade"] and ( charadict[answer]["Grade"] in charadict[guess]["Grade"] or charadict[guess]["Grade"] in charadict[answer]["Grade"]):
+                print(Fore.YELLOW + charadict[guess]["Grade"] + Style.RESET_ALL)
+            elif charadict[guess]["Grade"]!= charadict[answer]["Grade"]:
+                print(Fore.RED + charadict[guess]["Grade"] + Style.RESET_ALL)
+
+            if charadict[guess]["Species"] == charadict[answer]["Species"]:
+                print(Fore.GREEN + charadict[guess]["Species"] + Style.RESET_ALL)
+            elif charadict[guess]["Species"]!= charadict[answer]["Species"] and ( charadict[answer]["Species"] in charadict[guess]["Species"] or charadict[guess]["Species"] in charadict[answer]["Species"]):
+                print(Fore.YELLOW + charadict[guess]["Species"] + Style.RESET_ALL)
+            elif charadict[guess]["Species"]!= charadict[answer]["Species"]:
+                print(Fore.RED + charadict[guess]["Species"] + Style.RESET_ALL)
+
+            if charadict[guess]["Age"] == charadict[answer]["Age"]:
+                print(Fore.GREEN + charadict[guess]["Age"] + Style.RESET_ALL)
+            elif charadict[guess]["Age"]!= charadict[answer]["Age"] and ( charadict[answer]["Age"] in charadict[guess]["Age"] or charadict[guess]["Age"] in charadict[answer]["Age"]):
+                print(Fore.YELLOW + charadict[guess]["Age"] + Style.RESET_ALL)
+            elif charadict[guess]["Age"]!= charadict[answer]["Age"]:
+                print(Fore.RED + charadict[guess]["Age"] + Style.RESET_ALL)
+
+            if charadict[guess]["School"] == charadict[answer]["School"]:
+                print(Fore.GREEN + charadict[guess]["School"] + Style.RESET_ALL)
+            elif charadict[guess]["School"]!= charadict[answer]["School"] and ( charadict[answer]["School"] in charadict[guess]["School"] or charadict[guess]["School"] in charadict[answer]["School"]):
+                print(Fore.YELLOW + charadict[guess]["School"] + Style.RESET_ALL)
+            elif charadict[guess]["School"]!= charadict[answer]["School"]:
+                print(Fore.RED + charadict[guess]["School"] + Style.RESET_ALL)
+
+        else: print("Sorry! this character is currently not in the list.")
+
+    print("You found the character! The answer was " + answer + " \nYou found it in " + str(guesscount) + " tries. \n")
+    k = input("Do you want to play again? (y/n)?")
+          
+
+
+
+    

@@ -1,0 +1,43 @@
+charadict={
+    "Riddle Rosehearts": {"Occupation":"Student, Housewarden", "Dorm": "Heartslabyul", "Grade": "Second Year", "Species": "Human", "Age": "17", "School": "Night Raven College"},
+    "Ace Trappola": {"Occupation": "Student", "Dorm": "Heartslabyul", "Grade": "First Year", "Species": "Human", "Age": "16", "School":"Night Raven College"},
+    "Deuce Spade": {"Occupation":"Student", "Dorm": "Heartslabyul", "Grade": "First Year", "Species": "Human", "Age": "16", "School": "Night Raven College"},
+    "Trey Clover": {"Occupation":"Student, Vice Housewarden", "Dorm": "Heartslabyul", "Grade": "Third Year", "Species": "Human", "Age": "18", "School": "Night Raven College"},
+    "Cater Diamond": {"Occupation":"Student", "Dorm": "Heartslabyul", "Grade": "Third Year", "Species": "Human", "Age": "18", "School": "Night Raven College"},
+    "Leona Kingscholar": {"Occupation":"Student, Housewarden", "Dorm": "Savanaclaw", "Grade": "Third Year", "Species": "Beastmen", "Age": "20", "School": "Night Raven College"},
+    "Ruggie Bucchi": {"Occupation":"Student", "Dorm": "Savanaclaw", "Grade": "Second Year", "Species": "Beastmen", "Age": "17", "School": "Night Raven College"},
+    "Jack Howl": {"Occupation":"Student", "Dorm": "Savanaclaw", "Grade": "First Year", "Species": "Beastmen", "Age": "16", "School": "Night Raven College"},
+    "Azul Ashengrotto": {"Occupation":"Student, Housewarden", "Dorm": "Octavinelle", "Grade": "Second Year", "Species": "Merfolk", "Age": "17", "School": "Night Raven College"},
+    "Jade Leech": {"Occupation":"Student, Vice Housewarden", "Dorm": "Octavinelle", "Grade": "Second Year", "Species": "Merfolk", "Age": "17", "School": "Night Raven College"},
+    "Floyd Leech": {"Occupation":"Student", "Dorm": "Octavinelle", "Grade": "Second Year", "Species": "Merfolk", "Age": "17", "School": "Night Raven College"},
+    "Kalim Al-Asim": {"Occupation":"Student, Housewarden", "Dorm": "Scarabia", "Grade": "Second Year", "Species": "Human", "Age": "17", "School": "Night Raven College"},
+    "Jamil Viper": {"Occupation":"Student, Vice Housewarden", "Dorm": "Scarabia", "Grade": "Second Year", "Species": "Human", "Age": "17", "School": "Night Raven College"},
+    "Vil Schoenheit": {"Occupation":"Student, Housewarden", "Dorm": "Pomefiore", "Grade": "Third Year", "Species": "Human", "Age": "18", "School": "Night Raven College"},
+    "Rook Hunt": {"Occupation":"Student, Vice Housewarden", "Dorm": "Pomefiore", "Grade": "Third Year", "Species": "Human", "Age": "18", "School": "Night Raven College"},
+    "Epel Felmier": {"Occupation":"Student", "Dorm": "Pomefiore", "Grade": "First Year", "Species": "Human", "Age": "16", "School": "Night Raven College"},
+    "Idia Shroud": {"Occupation":"Student, Housewarden", "Dorm": "Ignihyde", "Grade": "Third Year", "Species": "Human", "Age": "18", "School": "Night Raven College"},
+    "Ortho Shroud": {"Occupation":"Student", "Dorm": "Ignihyde", "Grade": "First Year", "Species": "Robot", "Age": "Undefined", "School": "Night Raven College"},
+    "Malleus Draconia": {"Occupation":"Student, Housewarden", "Dorm": "Diasomnia", "Grade": "Third Year", "Species": "Fae", "Age": "Unknown", "School": "Night Raven College"},
+    "Lilia Vanrouge": {"Occupation":"Student, Vice Housewarden", "Dorm": "Diasomnia", "Grade": "Third Year", "Species": "Fae", "Age": "Unknown", "School": "Night Raven College"},
+    "Silver": {"Occupation":"Student", "Dorm": "Diasomnia", "Grade": "Second Year", "Species": "Human", "Age": "17", "School": "Night Raven College"},
+    "Sebek Zigvolt": {"Occupation":"Student", "Dorm": "Diasomnia", "Grade": "First Year", "Species": "Half-Fae", "Age": "16", "School": "Night Raven College"},
+    "Grim": {"Occupation":"Student", "Dorm": "Ramshackle", "Grade": "First Year", "Species": "Beast", "Age": "Unknown", "School": "Night Raven College"},
+    "Chenya": {"Occupation":"Student", "Dorm": "Unknown", "Grade": "Third Year", "Species": "Beastmen", "Age": "18", "School": "Royal Sword Academy"},
+    "Neige LeBlanche": {"Occupation":"Student", "Dorm": "Unknown", "Grade": "Second Year", "Species": "Human", "Age": "17", "School": "Royal Sword Academy"},
+    "Rielle Corallia": {"Occupation":"Student, Housewarden", "Dorm": "Marinafinne", "Grade": "Second Year", "Species": "Merfolk", "Age": "17", "School": "Royal Sword Academy"},
+    "Minajael Tealrajah": {"Occupation":"Student, Housewarden", "Dorm": "Dunasmina", "Grade": "Third Year", "Species": "Human", "Age": "18", "School": "Royal Sword Academy"},
+    "Dire Crowley": {"Occupation":"Headmage", "Dorm": "N/A", "Grade": "Staff", "Species": "Unknown", "Age": "Unknown", "School": "Night Raven College"},
+    "Ambrose LXIII": {"Occupation":"Headmage", "Dorm": "N/A", "Grade": "Staff", "Species": "Human", "Age": "Unknown", "School": "Royal Sword Academy"},
+    "Divus Crewel": {"Occupation":"Professor", "Dorm": "N/A", "Grade": "Staff", "Species": "Human", "Age": "32", "School": "Night Raven College"},
+    "Mozus Trein": {"Occupation":"Professor", "Dorm": "N/A", "Grade": "Staff", "Species": "Human", "Age": "58", "School": "Night Raven College"},
+    "Ashton Vargas": {"Occupation":"Professor", "Dorm": "N/A", "Grade": "Staff", "Species": "Human", "Age": "30", "School": "Night Raven College"},
+    "Sam": {"Occupation":"Salesman", "Dorm": "N/A", "Grade": "Staff", "Species": "Human", "Age": "25", "School": "Night Raven College"},
+    "Rollo Flamme": {"Occupation":"Student, Student Council President", "Dorm": "Unknown", "Grade": "Third Year", "Species": "Human", "Age": "18", "School": "Noble Bell College"},
+    "Fellow Honest": {"Occupation":"Playful Land Manager", "Dorm": "N/A", "Grade": "None", "Species": "Beastmen", "Age": "26", "School": "None"},
+    "Gidel": {"Occupation":"Playful Land Employee", "Dorm": "N/A", "Grade": "None", "Species": "Beastmen", "Age": "Unknown", "School": "None"},
+    "Skully J. Graves": {"Occupation":"Ex-Student", "Dorm": "Unknown", "Grade": "Unknown", "Species": "Human", "Age": "17", "School": "Night Raven College"}
+
+
+
+
+}
